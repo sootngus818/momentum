@@ -10,7 +10,7 @@
   <title>나만의 동기부여 홈화면 만들기</title>
 
   <script src="index.js"></script>
-  
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -18,37 +18,35 @@
       font-family: 'Poppins', sans-serif;
     }
 
-    .test {
-      font-size: 30px;
-    }
-
-    body{
+    body {
       background-image: url(https://wallpaperaccess.com/full/1609557.jpg);
       background-position: center;
 
       color: white;
     }
 
-    .time{
+    .time {
       font-size: 80px;
       font-weight: bold;
     }
 
-    .greeting{
+    .greeting {
       font-size: 50px;
     }
 
-    .todo{
+    .todo {
       font-size: 40px;
+      font-weight: lighter;
     }
 
-    .author{
+    .author {
       font-size: 25px;
       font-style: italic;
     }
 
-    .main{
-       width: 100vw;    /* vw : 화면 꽉차게 하는 코드  */
+    .main {
+      width: 100vw;
+      /* vw : 화면 꽉차게 하는 코드  */
       height: 80vh;
 
       display: flex;
@@ -57,7 +55,7 @@
       justify-content: center;
     }
 
-    .quote{
+    .quote {
       width: 100vw;
       height: 20vh;
 
@@ -66,8 +64,6 @@
       align-items: center;
       justify-content: center;
     }
-
-
   </style>
 
   <script>
@@ -75,14 +71,14 @@
 </head>
 
 <body>
-  <div id="time" class="main">
-    <div class="time">12:00</div>
+  <div class="main">
+    <div id="time" class="time">12:00</div>
     <div class="greeting">Hello, Soohyeon</div>
     <div class="todo">시 쓰기</div>
   </div>
   <div class="quote">
-  <div id="author" class="author"> "명언의 내용" </div>
-  <div id="content" class="content">  -명언의 저자- </div>
+    <div id="author" class="author"> "명언의 내용" </div>
+    <div id="content" class="content"> -명언의 저자- </div>
   </div>
 </body>
 
